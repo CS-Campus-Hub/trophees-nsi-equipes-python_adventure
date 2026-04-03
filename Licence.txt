@@ -71,24 +71,37 @@ Les documents originaux signés sont disponibles auprès de :
 4. BIBLIOTHÈQUES ET TECHNOLOGIES UTILISÉES
 ========================================================
 
-HTML5 / CSS3 / JavaScript
-  Usage   : Développement complet du jeu (fichier unique autonome)
-  Licence : Standards ouverts W3C — libre
-  Site    : https://developer.mozilla.org
+Blender
+  Usage   : Modélisation 3D des personnages, décors, objets et animations
+  Licence : Logiciel libre (GNU GPL)
+  Site    : https://www.blender.org
 
-Canvas API (navigateur)
-  Usage   : Rendu graphique du réseau, animations, particules
-  Licence : Standard navigateur intégré — libre
+Unreal Engine
+  Usage   : Développement du jeu, rendu 3D temps réel, gestion des niveaux et du gameplay
+  Licence : Licence Epic Games (gratuite pour usage éducatif)
+  Site    : https://www.unrealengine.com
 
-Aucune bibliothèque tierce externe n'est utilisée.
-RouteRush fonctionne sans dépendance ni framework.
+Blueprint (Unreal Engine)
+  Usage   : Programmation visuelle de toutes les mécaniques du jeu (logique, interactions, progression)
+  Licence : Intégré à Unreal Engine
+
+Aucun langage de programmation textuel (comme Python ou JavaScript)
+n’a été utilisé pour le développement du gameplay.
+Le projet repose entièrement sur Blueprint.
 
 ========================================================
 5. ASSETS ET CONTENU GRAPHIQUE
 ========================================================
 
-L'ensemble des visuels affichés dans RouteRush (nœuds,
-arêtes, zones AS, personnage Baymax, effets de particules,
-interface) est dessiné entièrement par code JavaScript via
-la Canvas API. Il s'agit d'une création originale de
-l'équipe. Aucun asset image externe n'est utilisé.
+Une grande partie des visuels du jeu (personnages, animations,
+certains objets et éléments interactifs) a été entièrement
+modélisée et animée par l’équipe à l’aide de Blender.
+
+Certains assets 3D, notamment des éléments de plateformes,
+ont été téléchargés depuis la plateforme Sketchfab puis
+intégrés et adaptés dans Unreal Engine afin de correspondre
+au projet.
+
+L’ensemble des éléments graphiques, leur intégration, leur
+animation et leur utilisation dans le gameplay constituent
+une réalisation originale de l’équipe.
