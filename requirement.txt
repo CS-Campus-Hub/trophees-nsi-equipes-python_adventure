@@ -1,0 +1,6 @@
+Python Adventure — Requirements
+Ce projet n'utilise pas de dépendances Python.
+Il repose sur les technologies suivantes :
+- Unreal Engine (Blueprint)
+- Blender (modélisation et animation)
+Il est seulement convenu d'installer le fichier "Python Adventure.zip" qui se trouve dans le dossier "source" du projet. Aucune installation via pip n'est nécessaire. 
